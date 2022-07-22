@@ -32,15 +32,22 @@ body {
     background-size: cover;
 }
 
+#about{
+    display: flex;
+    flex-direction: row;
+}
+
 .container{
     padding: 50px;
     border-bottom: 1px solid #a1a1a1;
 }
 
 .repository{
-    border-radius: 20px;
+    border-radius: 5px;
     border: 1px solid #c0c0c0;
+    background-color: #a1a1a1;
     padding: 20px;
+    margin: 10px;
     display: flex;
     flex-direction: row;
 }
